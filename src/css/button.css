@@ -1,0 +1,36 @@
+.buttons{
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 1.4em;
+    border: none;
+    border-right: solid 1px #888;
+    border-bottom: solid 1px #888;
+    outline: none;
+}
+.buttons:active{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.buttons.double {
+    grid-column: span 2;
+    background-color: rgb(156, 236, 251);
+}
+.buttons.double:active{
+    background-color: rgba(156, 236, 251, 0.3);
+}
+
+
+.buttons.calculation{
+    background-color: rgb(101, 199, 247);
+}
+
+.buttons.calculation:active{
+    background-color: rgba(101, 199, 247, 0.3);
+}
+
+.buttons.equal{
+    background-color: rgb(0, 82, 212);
+}
+
+.buttons.equal:active{
+    background-color: rgba(0, 82, 212, 0.3);
+}
